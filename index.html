@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diario Noticias</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <a href="index.html" class="logo">Diario Noticias</a>
+        <a href="#clima" class="weather-link">Clima</a>
+      </div>
+    </header>
+    <main>
+      <section id="clima">
+        <h2>Clima</h2>
+        <p>Aquí puedes mostrar información meteorológica.</p>
+      </section>
+      <section id="noticias">
+        <h2>Últimas Noticias</h2>
+        <article>
+          <h3>Título de la noticia</h3>
+          <p>Contenido de la noticia aquí.</p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <form id="add-news-form">
+        <h2>Agregar Noticias</h2>
+        <input type="text" id="title" placeholder="Título" />
+        <textarea id="content" placeholder="Contenido"></textarea>
+        <input type="text" id="author" placeholder="Autor" />
+        <button type="submit">Agregar</button>
+      </form>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
